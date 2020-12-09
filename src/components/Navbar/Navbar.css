@@ -1,0 +1,5 @@
+.pie-icon{
+    display: inline-block;
+    background-size: cover;
+    background-image: url('../../assets/icons/pie-chart.svg');
+}
