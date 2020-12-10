@@ -9,16 +9,27 @@ import { Support } from '../../pages/support/Support';
 
 export const SideNav: React.FC = () => {
     return (
-        <div className="flex flex-row h-full">
-            <div className="container w-1/5 separate-right-line">
+        <div className="flex h-full">
+            <div className="flex-1 container max-w-1/5 separate-right-line h-full">
                 <ul className="px-5">
                     <li className="p-3 text-left flex flex-row items-center">
                         <IoIosSpeedometer fontSize="24" />
-                        <NavLink to="/dashboard" className="pl-3 text-base">Dashboard</NavLink>
+                        <NavLink
+                            to="/dashboard"
+                            className="pl-3 text-base font-medium w-full"
+                            activeClassName="active"
+                        >
+                            Dashboard
+                        </NavLink>
                     </li>
                     <li className="p-3 text-left flex flex-row items-center">
                         <GrSupport fontSize="24" />
-                        <NavLink to="/support" className="pl-3 text-base">Support</NavLink>
+                        <NavLink
+                            to="/support"
+                            className="pl-3 text-base font-medium w-full"
+                            activeClassName="active">
+                            Support
+                        </NavLink>
                     </li>
                 </ul>
             </div>
