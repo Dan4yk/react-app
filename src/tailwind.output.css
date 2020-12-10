@@ -32123,6 +32123,15 @@ code {
     monospace;
 }
 
+html, body, #root, .App {
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg-lime-color{
+  background-color: #7ba63b;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

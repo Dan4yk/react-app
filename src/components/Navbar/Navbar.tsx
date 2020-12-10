@@ -8,7 +8,7 @@ export const Navbar: React.FC = () => {
             <nav className="flex justify-between  items-center">
                 <div className="flex flex-row items-center">
                     <img src={pieIcon} className="w-11" alt="pie-chart"/>
-                    <a href="/" className="pl-4 text-xl text-white font-semibold">Page Title</a>
+                    <a href="/" className="pl-4 text-2xl text-white font-semibold">Page Title</a>
                 </div>
 
                 <ul className="flex flex-row">
