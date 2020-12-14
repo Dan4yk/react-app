@@ -29,7 +29,7 @@ export const Support: React.FC = () => {
     ]
 
     const arrayTitle = [
-        'Name Surname',
+        'Name/Surname',
         'IDNP',
         'Phone',
         'PAN Card',
@@ -63,7 +63,7 @@ export const Support: React.FC = () => {
                 </div>
 
                 <div className="pl-5 py-2">
-                    <button className="bg-lime-color px-10 py-2 rounded-sm shadow-md text-white text-base uppercase">Search</button>
+                    <button className="bg-lime-color px-10 py-2 rounded-sm shadow-md text-white text-base uppercase focus:outline-none">Search</button>
                 </div>
             </div>
         </form>

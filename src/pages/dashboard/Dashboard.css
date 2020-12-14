@@ -9,3 +9,40 @@
 .shadowBox{
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
+
+.segmented-control {
+    display: table;
+    padding: 0;
+}
+
+.segmented-control-item {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.segmented-control-input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.segmented-control-label {
+    display: block;
+    margin: 0 -1px -1px 0; /* -1px margin removes double-thickness borders between items */
+    padding: 12px 40px;
+    text-align: center;  
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.segmented-control-input:checked + .segmented-control-label {
+    border-bottom: 3px solid white;
+    color: white;
+    font-weight: 500;
+}
+
+.shadowBox-segment-toolbar{
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
